@@ -1,0 +1,20 @@
+{
+  "include": ["./frontend/assets/js/**/*"],
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "jsx": "preserve",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "lib": ["DOM", "ESNext"],
+    "skipLibCheck": true,
+    "noEmit": false,
+    "paths": {
+      "@/*": ["./frontend/assets/js"]
+    }
+  }
+}
